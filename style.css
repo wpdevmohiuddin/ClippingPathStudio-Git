@@ -1,0 +1,295 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+#et-main-area {
+    position: relative;
+    z-index: 0;
+}
+.et_pb_text_4_tb_body .post-title h2 {
+    line-height: 30px;
+}
+.et_pb_text_5_tb_body .post-title h2 {
+    line-height: 26px;
+}
+.owl-item .post-author picture {
+    max-width: 40px;
+    margin-right: 10px;
+    max-height: 40px;
+}
+.owl-item .post-author {
+    font-size: 14px;
+}
+#left-area .post-meta {
+    margin-bottom: 0;
+}
+
+/* Footer */
+.et-l--footer ul {
+  padding: 0 ;
+}
+.footer-policy ul li {
+  display: inline-block;
+  line-height: 16px;
+}
+.footer-policy ul li:not(:first-child) {
+  border-left: 1px solid rgba(255,255,255, .30);
+  padding-left: 10px;
+  margin-left: 7px;
+}
+.mailchimp-subscribe {
+  display: flex;
+}
+.mailchimp-subscribe .wpcf7-email, .mailchimp-subscribe .your-email {
+  width: 100%;
+}
+.mailchimp-subscribe .wpcf7-email {
+    background: black;
+    border: 0;
+  border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.mailchimp-subscribe .wpcf7-submit {
+    position: absolute !important;
+    font-size: 0 !important;
+    min-width: 45px !important;
+	min-height: 45px;
+    max-height: 45px !important;
+    border-radius: 50px !important;
+    margin-left: -45px !important;
+    background-color: #73BF44 !important;
+	top: 2px;
+    right: 3px;
+    cursor: pointer !important;
+}
+.mailchimp-subscribe .wpcf7-submit:hover {
+    background-color: #73BF44 !important;
+    border-radius: 50px !important;
+}
+.mailchimp-subscribe .wpcf7-submit:after {
+  display: none !important;
+}
+.mailchimp-subscribe .wpcf7-submit:before {
+    content: ''!important;
+    width: 40px;
+    height: 42px;
+    position: absolute !important;
+    background-image: url(/wp-content/uploads/2020/02/mdi_keyboard_arrow_right.png);
+    background-position: center;
+    display: inline-block!important;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    line-height: 0 !important;
+    opacity: 1 !important;
+}
+.mailchimp-subscribe span.wpcf7-not-valid-tip {
+  margin: 10px 22px 0;
+}
+div.wpcf7-validation-errors {
+    border-color: #73bf43;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0 0;
+}
+div.wpcf7 .ajax-loader {
+  display: none;
+}
+.aligncenter {
+    text-align: center;
+}
+
+/* Dynamic CTA by Kazi Tihum */
+.dynamic-cta {
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* text_color */
+.dynamic-cta.text-light h2 {
+	color: white !important;
+}
+
+/* theme-1 */
+.dynamic-cta.theme-1 h2, .dynamic-cta.theme-1 a {
+	font-weight: bold !important;
+}
+.dynamic-cta.theme-1 a:after {
+    content: "\e620";
+    font-family: icomoon;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* theme-2 */
+.dynamic-cta.theme-2 h2, .dynamic-cta.theme-2 a {
+	font-weight: bold !important;
+}
+.dynamic-cta.theme-2 a {
+	background-color: #72849c;
+    text-transform: uppercase;
+    transition: all .2s;
+    border-radius: 2px;
+    padding: 10px 30px;
+	color: white;
+}
+.dynamic-cta.theme-2 a:hover {
+    background: #35baf2;
+}
+
+.progress-container {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  z-index: 9999 !important;
+  background-color: #ebeaea;
+  
+}
+.user_loging{
+  position: fixed !important;
+  top: 92px !important;
+  left: 0 !important;
+}
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #73bf44;
+  z-index: 9999 !important;
+ border-radius: 50px;
+}
+@keyframes pulse {
+    0% {
+        background-color: #e0e0e0;
+    }
+    50% {
+        background-color: #f0f0f0;
+    }
+    100% {
+        background-color: #e0e0e0;
+    }
+}
+
+
+
+/* Before After Image Slider */
+
+.before-after-image-comparison-slider-container {
+    width: 465px !important;
+    max-width: 465px !important;
+    height: 470px !important;
+    max-height: 470px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.before-after-image-comparison-slider {
+    width: 100% !important;
+    position: relative !important;
+    overflow: hidden !important;
+    user-select: none !important;
+}
+.before-after-image-comparison-slider:before, 
+.before-after-image-comparison-slider:after {
+    color: #fff !important;
+    font-size: 13px !important;
+    letter-spacing: .1em !important;
+    position: absolute !important;
+    background: hsla(0,0%,100%,.2) !important;
+    line-height: 38px !important;
+    padding: 0 20px !important;
+    border-radius: 2px !important;
+    opacity: 0 !important;
+    display: none !important;
+    transition: opacity 0.4s ease-in-out !important;
+}
+.before-after-image-comparison-slider:before {
+    content: 'Before' !important;
+    left: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+.before-after-image-comparison-slider:after {
+    content: 'After' !important;
+    right: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+.before-after-image-comparison-slider:hover:before, 
+.before-after-image-comparison-slider:hover:after {
+    opacity: 1 !important;
+    display: block !important;
+}
+.comparison-slider-after-image {
+    display: block !important;
+}
+.comparison-slider-before-image {
+    position: absolute !important;
+    height: 100% !important;
+    width: 50% !important;
+    top: 0 !important;
+    left: 0 !important;
+    overflow: hidden !important;
+    z-index: 2 !important;
+}
+.comparison-slider-before-image img {
+    max-width: 465px !important;
+    height: 470px !important;
+}
+.comparison-slider-after-image img {
+    max-width: 465px !important;
+    height: 470px !important;
+}
+.image-comparison-slider-resizer {
+    position: absolute !important;
+    display: flex !important;
+    align-items: center !important;
+    z-index: 5 !important;
+    top: 0 !important;
+    left: 50% !important;
+    height: 100% !important;
+    width: 4px !important;
+    background: #fff !important;
+    cursor: pointer !important;
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
+.image-comparison-slider-resizer:after {
+    font-family: "etmodules" !important;
+    content: '\2b' !important;
+    background: #73BF44 !important;
+    font-weight: 900 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: #fff !important;
+    position: absolute !important;
+    margin: 0 0 0 -18px !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    border: 3px solid #fff !important;
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+	.dynamic-cta {
+		padding: 30px;
+	}
+}
