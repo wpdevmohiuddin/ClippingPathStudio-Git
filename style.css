@@ -7,10 +7,10 @@
  Template:       Divi
  Version:        1.0.0
 */
-#et-main-area {
+/* #et-main-area {
     position: relative;
     z-index: 0;
-}
+} */
 .et_pb_text_4_tb_body .post-title h2 {
     line-height: 30px;
 }
